@@ -1,0 +1,84 @@
+{
+    "items": [
+        {
+            "type": [
+                "h-test"
+            ],
+            "properties": {
+                "test-p": [
+                    {
+                        "value": "P",
+                        "type": [
+                            "h-test-p"
+                        ],
+                        "properties": {
+                            "name": [
+                                "P"
+                            ]
+                        },
+                        "id": "p"
+                    }
+                ],
+                "test-u": [
+                    {
+                        "value": "http://example.test/U",
+                        "type": [
+                            "h-test-u"
+                        ],
+                        "properties": {
+                            "name": [
+                                "http://example.test/U"
+                            ]
+                        },
+                        "id": "u"
+                    }
+                ],
+                "test-dt": [
+                    {
+                        "value": "Dt",
+                        "type": [
+                            "h-test-dt"
+                        ],
+                        "properties": {
+                            "name": [
+                                "Dt"
+                            ]
+                        },
+                        "id": "dt"
+                    }
+                ],
+                "test-e": [
+                    {
+                        "html": "<div class=\"p-name\">E</div>",
+                        "value": "E",
+                        "type": [
+                            "h-test-e"
+                        ],
+                        "properties": {
+                            "name": [
+                                "E"
+                            ]
+                        },
+                        "id": "e"
+                    }
+                ]
+            },
+            "id": "root",
+            "children": [
+                {
+                    "type": [
+                        "h-test-child"
+                    ],
+                    "properties": {
+                        "name": [
+                            "NotPartOfTest"
+                        ]
+                    },
+                    "id": "child"
+                }
+            ]
+        }
+    ],
+    "rels": {},
+    "rel-urls": {}
+}
