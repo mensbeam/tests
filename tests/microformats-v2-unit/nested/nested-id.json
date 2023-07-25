@@ -46,21 +46,6 @@
                         },
                         "id": "dt"
                     }
-                ],
-                "test-e": [
-                    {
-                        "html": "<div class=\"p-name\">E</div>",
-                        "value": "E",
-                        "type": [
-                            "h-test-e"
-                        ],
-                        "properties": {
-                            "name": [
-                                "E"
-                            ]
-                        },
-                        "id": "e"
-                    }
                 ]
             },
             "id": "root",
