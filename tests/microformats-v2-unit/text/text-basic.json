@@ -284,6 +284,28 @@
         },
         {
             "type": [
+                "h-test-inner-whitespace"
+            ],
+            "properties": {
+                "name": [
+                    "NotPartOfTest"
+                ],
+                "p": [
+                    "A  \t\t\n\n\f\f\r\rA"
+                ],
+                "dt": [
+                    "A  \t\t\n\n\f\f\r\rA"
+                ],
+                "e": [
+                    {
+                        "html": "A  \t\t\n\n\f\f\r\rA",
+                        "value": "A  \t\t\n\n\f\f\r\rA"
+                    }
+                ]
+            }
+        },
+        {
+            "type": [
                 "h-test-stripped"
             ],
             "properties": {
@@ -301,7 +323,7 @@
                 ],
                 "e": [
                     {
-                        "html": "<div>\n            <style>Invalid {display:block;}</style>\n            <script>Invalid();</script>\n        </div>\n        Valid",
+                        "html": "<div>\n            <style>div {display:block;}</style>\n            <script>alert();</script>\n        </div>\n        Valid",
                         "value": "Valid"
                     }
                 ]
