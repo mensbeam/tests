@@ -72,6 +72,19 @@
                     "http://example.test/%E3%80%80NoTrim%E3%80%80"
                 ]
             }
+        },
+        {
+            "type": [
+                "h-test-inner-whitespace"
+            ],
+            "properties": {
+                "name": [
+                    "NotPartOfTest"
+                ],
+                "u": [
+                    "http://example.test/A%20%20%0C%0CA"
+                ]
+            }
         }
     ],
     "rels": {},
